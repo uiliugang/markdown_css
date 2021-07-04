@@ -1,4 +1,3 @@
-/*个人修改版，自用 By LG*/
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body{
@@ -10,7 +9,7 @@ line-height:1.2em;
 padding:1em;
 margin:auto;
 max-width:42em;
-background:#E8E8E8;
+background:	#F5FFFA;
 }
 
 a{ color: #0645ad; text-decoration:none;}
@@ -55,10 +54,6 @@ blockquote {
   border-left: 3px solid #2f845e;
   background-color: rgba(66, 185, 131, 0.1);
   border-radius: 4px;
-}
-
-blockquote code {
-  background-color: transparent;
 }
 
 hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
@@ -107,8 +102,8 @@ body{font-size:16px;}
 @media only screen and (min-width: 768px) {
 body{font-size:16px;}
 }
-
-@media print {
+/* 
+ @media print {
   * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
   body{font-size:12pt; max-width:100%;}
   a, a:visited { text-decoration: underline; }
@@ -123,4 +118,4 @@ body{font-size:16px;}
   @page :right { margin: 15mm 10mm 15mm 20mm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
-}
+}  */
